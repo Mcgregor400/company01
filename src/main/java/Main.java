@@ -16,7 +16,7 @@ public class Main extends Application {
         Parent parent = FXMLLoader.load(getClass().getResource("/view/loginView.fxml"));
         // stawienie właściwości okna aplikacji
         primaryStage.setTitle("Logowanie");
-        primaryStage.setResizable(false);
+        primaryStage.setResizable(true);
         primaryStage.setScene(new Scene(parent));
         primaryStage.show();
     }
